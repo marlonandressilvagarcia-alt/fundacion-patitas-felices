@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="nav">
+            <h1>Fundacion Patitas felices</h1>
+            <div class="links">
+                <a href="index.html">INICIO</a>
+                <a href="mision.html">VISION Y MISION</a>
+                <a href="galery.html">GALERIA</a>
+                <a href="adopt.html">ADOPTAR</a>
+                <a href="contact.html">CONTACTO</a>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="post">
+            
+            <p>Campos obligatorios *</p>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre *" required>
+
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" placeholder="Ingresa tus apellidos *" required>
+
+            <label for="ciudad">Ciudad</label>
+            <input type="text" id="ciudad" placeholder="Cucuta *" required>
+
+            <label for="email">Correo electronico</label>
+            <input type="email" id="email" placeholder="nombre@gmail.com *" required>
+
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" placeholder="3154202386 *" required>
+
+            <label for="animal">Tipo de consulta *</label>
+            <select name="animal" id="animal" required>
+                <option value="adopcion">Adopción</option>
+                <option value="donacion">Donación</option>
+                <option value="voluntariado">Voluntariado</option>
+                <option value="general">Información general</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">Mensaje *</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" required
+                placeholder="Ingrese un mensaje"></textarea>
+
+                <button id="boton">Enviar</button>
+        </form>
+
+        <section class="contacto">
+            <h4>Contacto directo</h4>
+            <div>
+                <a href="">WhatApp</a>
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <div class="footer-item">
+                <h3>Fundacion Patitas Felices</h3>
+            </div>
+            <div class="footer-item">
+                <p>© 2026 [Patittas Felices]. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-item">
+                <p>patitasfelices@gmail.com</p>
+            </div>
+            <div class="footer-item">
+                <a href="">Desarrollado por CodeMarlon</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
